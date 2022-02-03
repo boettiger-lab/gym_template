@@ -7,7 +7,7 @@
 -->
 
 The [OpenAI gym](https://github.com/openai/gym) specification provides a widely recognized standard API for specifying sequential decision problems (PO)MDPs ([Brockman et al](https://arxiv.org/pdf/1606.01540)) which is compatible with most leading RL frameworks.
-A minimal `gym` object is a Python class with at least three core methods: `init , `reset`, and `step`, like so:
+A minimal `gym` object is a Python class with at least three core methods: `init`, `reset`, and `step`, like so:
 
 ```python
 
