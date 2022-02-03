@@ -34,14 +34,14 @@ Tasks to deploy template:
 
 ## Inital steps
 
-- [] Update `setup.py` metadata
-- [] Rename `gym_template` directory to match your module name
-- [] Update module name in `Makefile`
-- [] Update tests to reflect module name.
+- [ ] Update `setup.py` metadata
+- [ ] Rename `gym_template` directory to match your module name
+- [ ] Update module name in `Makefile`
+- [ ] Update tests to reflect module name.
 
 ## Building the gym
 
-- [] Edit the methods and class definitions in renamed `gym_template` directory to define the core gym methods.
+- [ ] Edit the methods and class definitions in renamed `gym_template` directory to define the core gym methods.
 
 
 
