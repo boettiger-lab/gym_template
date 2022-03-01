@@ -1,8 +1,9 @@
 import gym
+from gym.envs.registration import register
 
 
 class BaseEnv(gym.Env):
-    def __init__(self, env_config = {}):
+    def __init__(self, env_config={}):
         self.action_space = gym.spaces.Discrete(6)
         self.observation_space = gym.spaces.Discrete(6)
 
@@ -16,3 +17,10 @@ class BaseEnv(gym.Env):
     def reset(self):
         self.obs = 1
         return self.obs
+
+
+register(
+    id="template-v0",
+    entry_point="gym_template.envs.base:BaseEnv",
+)
+

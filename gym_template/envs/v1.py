@@ -1,4 +1,5 @@
 import gym
+from gym.envs.registration import register
 from gym_template.envs.base import BaseEnv
 
 
@@ -13,3 +14,9 @@ class Env1(BaseEnv):
         done = False
         info = {}
         return self.obs, reward, done, info
+
+
+register(
+    id="template-v1",
+    entry_point="gym_template.envs.v1:Env1",
+)

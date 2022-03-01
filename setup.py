@@ -1,6 +1,6 @@
 import setuptools
 
-## CUSTOMIZE The metadata below, especially name/description/author
+# CUSTOMIZE The metadata below, especially name/description/author
 setuptools.setup(
     name="gym_template",
     version="0.0.1",
@@ -18,7 +18,7 @@ setuptools.setup(
         "AI",
         "Artificial Intelligence",
     ],
-    ## Common dependencies for testing, docs, and SB3, leave as is or extend
+    # Common dependencies for testing, docs, and SB3, leave as is or extend
     packages=setuptools.find_packages(exclude=["docs", "scripts", "tests"]),
     install_requires=["gym", "numpy", "pandas", "matplotlib"],
     extras_require={
