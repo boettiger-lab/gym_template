@@ -11,5 +11,7 @@ def test_ppo():
     env = gym.make("template-v0")
     check_env(env)
     model = PPO("MlpPolicy", env, verbose=0)
+
+
 #    model.learn(total_timesteps=2)
 #    mean_reward, std_reward = evaluate_policy(model, env, n_eval_episodes=2)

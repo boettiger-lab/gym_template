@@ -1,5 +1,4 @@
 import gym
-from gym.envs.registration import register
 
 
 class BaseEnv(gym.Env):
@@ -17,10 +16,3 @@ class BaseEnv(gym.Env):
     def reset(self):
         self.obs = 1
         return self.obs
-
-
-register(
-    id="template-v0",
-    entry_point="gym_template.envs.base:BaseEnv",
-)
-
