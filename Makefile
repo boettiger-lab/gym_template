@@ -35,8 +35,7 @@ spelling:
 	cd docs && make spelling
 
 clean:
-	rm -rf *test.png
-	cd docs && make clean
+	rm -rf .pytype .pytest_cache build/
 
 # PyPi package release
 release:
